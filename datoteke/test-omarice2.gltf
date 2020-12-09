@@ -44,15 +44,34 @@
             ]
         },
         {
-            "extras" : {},
             "mesh" : 0,
             "name" : "FL-P-004 Omarica 60 - sestav"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.22061289846897125,
+                    0.2391754388809204,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
         }
     ],
     "meshes" : [
         {
             "extras" : {
-                "v3d" : {},
                 "targetNames" : [
                     "test-sirina"
                 ]
@@ -65,6 +84,7 @@
                         "NORMAL" : 1
                     },
                     "indices" : 2,
+                    "material" : 0,
                     "targets" : [
                         {
                             "POSITION" : 3,
@@ -74,7 +94,7 @@
                 }
             ],
             "weights" : [
-                1
+                0
             ]
         }
     ],
