@@ -7,7 +7,7 @@ import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/t
 import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r122/examples/jsm/loaders/GLTFLoader.js';
 
 function main() {
-  const canvas = document.querySelector('#id-css');
+  const canvas = document.querySelector('#c');
   const renderer = new THREE.WebGLRenderer({canvas});
 
   const fov = 45;
