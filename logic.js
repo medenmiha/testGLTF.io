@@ -86,7 +86,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('datoteke/panthera-full.glb', (gltf) => {
+    gltfLoader.load('datoteke/test-omarice2.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
